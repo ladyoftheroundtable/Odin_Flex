@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.header, .footer {
+    display: flex;
+}
+
+.main{
+    justify-content: space-between;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.two {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbnails{
+    display: flex;
+    align-items: baseline;
+    flex-basis: 0;
+}
+
+.thumbnails img {
+    width: 100px;
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+.three {
+    text-align: center;
+}
+
+.customer {
+    text-align: end;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
